@@ -1,0 +1,9 @@
+name: Call Hello Workflow
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  call-hello:
+    uses: DmitriyUnix/workflow-base/.github/workflows/hello.yml@main
